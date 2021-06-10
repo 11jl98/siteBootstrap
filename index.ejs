@@ -14,6 +14,7 @@
         rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="css/styles.css" rel="stylesheet" />
 
 </head>
@@ -32,6 +33,7 @@
                     <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Softwares</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contatos</a></li>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -48,6 +50,7 @@
                     <p class="text-white-75 mb-5">A BMS é a solução perfeita para o seu negócio, buscando sempre a forma
                         mais prática para facilitar o seu dia a dia!</p>
                     <a class="btn btn-primary btn-xl" href="#about">Saiba mais</a>
+                    <a class="btn btn-light btn-xl btnLgin" href="#services">Fazer login</a>
                 </div>
             </div>
         </div>
@@ -119,6 +122,8 @@
     <!-- Portfolio-->
     <div id="portfolio">
         <div class="container-fluid p-0">
+            <h2 class="text-center mt-0">Softwares desktop</h2>
+            <hr class="divider" />
             <div class="row g-0">
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box" href="assets/img/tela_inicial.png" title="Winfit SAAT">
@@ -212,10 +217,14 @@
     <section class="page-section bg-dark text-white">
         <div class="container px-4 px-lg-5 text-center">
             <h2 class="mb-4">Escolha o seguimento a baixo e saiba mais!</h2>
-            <button type="button" class="btn btn-light btn-xl" data-toggle="collapse"
+            <button type="button" class="btn btn-light btn-xl mr-3" data-toggle="collapse"
                 data-target="#winfit">Winfit</button>
-            <button type="button" class="btn btn-light btn-xl" data-toggle="collapse"
+            <button type="button" class="btn btn-light btn-xl mr-3" data-toggle="collapse"
                 data-target="#otica">Óptica</button>
+            <button type="button" class="btn btn-light btn-xl mr-3" data-toggle="collapse" data-target="#bmsnfe">BMS
+                NFe</button>
+            <button type="button" class="btn btn-light btn-xl mr-3" data-toggle="collapse"
+                data-target="#seguimentos">seg. gerais</button>
             <!-- Winfit SAAT-->
             <div id="winfit" class="collapse">
                 <section class="page-section" id="services">
@@ -291,13 +300,13 @@
                     <div class="container px-4 px-lg-4">
                         <h3 class="text-center mt-0">Solução de estão perfeita para a sua ópitca!</h3>
                         <P class="mt-5 mb-5">O sistema óptica trás agilidade e praticidade na hora de fazer a gestão da
-                            sua ótica, é um sistema simples
+                            sua óptica, é um sistema simples
                             e prático para cadastrar seus clientes de forma completa, com diagnósticos e com histtórico
                             de vendas, e cadastar produtos,de forma manal, ou por nota de compra, que é a maneira mais
-                            rápida de ataizar o seu estoque de prdotuso no sistema. Com ele també é possível fazer
+                            rápida de atualizar o seu estoque de produtos no sistema. Com ele também é possível fazer
                             vendas com recibos, gerar relatórios,
                             controle financeiro das contas a pagar e a receber e muito mais... Contamos também com a
-                            emissão de NFe e NFCe trazendo tranquilidade na questão fiscal</P>
+                            emissão de NFe e NFCe trazendo tranquilidade na questão fiscal.</P>
 
 
                         <h2 class="text-center mt-0">O que o software oferece?</h2>
@@ -305,42 +314,45 @@
                             <div class="col-lg-4 col-md-7 text-center">
                                 <div class="mt-5">
                                     <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                                    <h6 class="h4 mb-2">Operações agrícolas</h6>
+                                    <h6 class="h4 mb-2">Operações</h6>
                                     <ul>
-                                        <li>Cadastro de clientes vinculado a propiredades</li>
-                                        <li>Cadastro de responsavel técnico</li>
-                                        <li>Emissão de receituarios agronomicos</li>
-                                        <li>Assinatura digital e eletrônica</li>
-                                        <li>Consulta de agrotoxicos, pragas, culturas e diagnosticos completo</li>
+                                        <li>Cadastro de clientes vinculado a diagnosticos</li>
+                                        <li>Cadastro de produtos com informações fiscais</li>
+                                        <li>Cadastro de funcionairo vinculado a comissões</li>
+                                        <li>Cadastro de fornecedores por CNPJ</li>
+                                        <li>Entrada de estoque por xml de nota de compra</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-7 text-center">
                                 <div class="mt-5">
                                     <div class="mb-2"><i class="bi-clipboard-data fs-1 text-primary"></i></div>
-                                    <h6 class="h4 mb-2">Gestão de empresa</h6>
+                                    <h6 class="h4 mb-2">Vendas</h6>
                                     <ul>
-                                        <li>Controle de estoque(Entradas e saidas)</li>
-                                        <li>Controle de vendas (receitas agronômicas)</li>
-                                        <li>Relatórios por tipo de venda</li>
-                                        <li>Relatórios de relação de produtos vendidos e comprados</li>
-                                        <li>Movimentações de saida vinculada com a receita</li>
+                                        <li>Emissão de NF-e (Nota Fiscal eletrônica)</li>
+                                        <li>Emissão de NFC-e (Cupom fiscal do consumidor)</li>
+                                        <li>Pedidos de vendas completos e simples</li>
+                                        <li>Relatórios e cupons não fiscais para pedidos de venda</li>
+                                        <li>Financeiro para gerar duplicatas e carnês</li>
+                                        <li>Emissão de boleto bancário registrado</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-7 text-center">
                                 <div class="mt-5">
                                     <div class="mb-2"><i class="bi-clipboard-check fs-1 text-primary"></i></div>
-                                    <h3 class="h4 mb-2">Controle sobre Crea's</h3>
+                                    <h3 class="h4 mb-2">Controle financeiro</h3>
                                     <ul>
-                                        <li>Relatório de cotrole ao IMA-MG (SICCA)</li>
-                                        <li>Envio automático de Receitas ao IDAF-ES</li>
-                                        <li>Envio automático de Receitas ao AGRO DEFESA-GO</li>
-                                        <li>Relatórios para envio ao INDEA-MT</li>
-                                        <li>Relatórios para envio ao CFTA</li>
-                                        <li>Relatórios para envio ao SIGEN-SC</li>
-                                        <li>Relatórios para envio ao CIAGRO-PR</li>
-                                        <li>Relatórios para envio ao SIG@-RS</li>
+                                        <li>Controle do fluxo de caixa (entradas, saídas e sangria)</li>
+                                        <li>Cadastro de duplicatas a receber(opção quando não se gera no pedido nem na
+                                            NF-e)</li>
+                                        <li>Extrato de dplicatas a receber, com fitros por cliente e status da dupicata
+                                        </li>
+                                        <li>cadastro de dupicatas a pagar</li>
+                                        <li>Extrato de dplicatas a pagar</li>
+                                        <li>Relações de constas a pagar e a receber</li>
+                                        <li>Cadastro de contas bancarias</li>
+                                        <li>Sintegra (somente em MG)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -350,6 +362,198 @@
 
                 </section>
             </div>
+            <!--BMSNFe-->
+            <div id="bmsnfe" class="collapse">
+                <section class="page-section" id="services">
+                    <div class="container px-4 px-lg-4">
+                        <h3 class="text-center mt-0">Escolha esse seguimento para sua Marmoraria, vidraçaria ou
+                            marcenaria!</h3>
+                        <P class="mt-5 mb-5">O sistema BMS NFe trás agilidade e praticidade na hora de fazer a gestão da
+                            seu negócio, é um sistema simples
+                            e prático para cadastrar seus clientes de forma completa com histórico
+                            de vendas, e cadastar produtos,de forma manual, ou por nota de compra, que é a maneira mais
+                            rápida de atualizar o seu estoque de produtos no sistema. Com ele também é possível fazer
+                            vendas por metro quadrado ou por metro linear, o sistema ja faz todos os calculos por, basta
+                            informar as dimenções,consta com recibos, gerar relatórios,
+                            controle financeiro das contas a pagar e a receber e muito mais... Contamos também com a
+                            emissão de NFe, NFCe e MDF-e trazendo tranquilidade na questão fiscal.</P>
+                        <h2 class="text-center mt-0">O que o software oferece?</h2>
+                        <div class="row gx-4 gx-lg-5">
+                            <div class="col-lg-4 col-md-7 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                                    <h6 class="h4 mb-2">Operações</h6>
+                                    <ul>
+                                        <li>Cadastro de clientes vinculado a histórico de vendas</li>
+                                        <li>Cadastro de produtos com informações fiscais e com composições</li>
+                                        <li>Cadastro de funcionairo vinculado a comissões</li>
+                                        <li>Cadastro de fornecedores por CNPJ</li>
+                                        <li>Entrada de estoque por xml de nota de compra</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-7 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"><i class="bi-clipboard-data fs-1 text-primary"></i></div>
+                                    <h6 class="h4 mb-2">Vendas</h6>
+                                    <ul>
+                                        <li>Emissão de NF-e (Nota Fiscal eletrônica)</li>
+                                        <li>Emissão de NFC-e (Cupom fiscal do consumidor)</li>
+                                        <li>Emissão de MDF-e ( Manifesto Eletrônico de Documentos Fiscais)</li>
+                                        <li>Pedidos de vendas/orçamentos em metro Quadrado</li>
+                                        <li>Pedidos de vendas/orçamentos em metro linear</li>
+                                        <li>Relatórios e cupons não fiscais para pedidos de venda</li>
+                                        <li>Financeiro para gerar duplicatas e carnês</li>
+                                        <li>Emissão de boleto bancário registrado</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-7 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"><i class="bi-clipboard-check fs-1 text-primary"></i></div>
+                                    <h3 class="h4 mb-2">Controle financeiro</h3>
+                                    <ul>
+                                        <li>Controle do fluxo de caixa (entradas, saídas e sangria)</li>
+                                        <li>Cadastro de duplicatas a receber(opção quando não se gera no pedido nem na
+                                            NF-e)</li>
+                                        <li>Extrato de dplicatas a receber, com fitros por cliente e status da dupicata
+                                        </li>
+                                        <li>cadastro de dupicatas a pagar</li>
+                                        <li>Extrato de dplicatas a pagar</li>
+                                        <li>Relações de constas a pagar e a receber</li>
+                                        <li>Cadastro de contas bancarias</li>
+                                        <li>Sintegra (somente em MG)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+            <!--seguimentos-->
+            <div id="seguimentos" class="collapse">
+                <section class="page-section" id="services">
+                    <div class="container px-4 px-lg-4">
+                        <h3 class="text-center mt-0">Dê ma olhada nos demais seguimentos e escolha o seu!</h3>
+                        <hr class="divider" />
+                        <h3 class="text-center mt-5">O que cada seguimento oferece?</h3>
+                        <div class="row gx-4 gx-lg-5">
+                            <div class="col-lg-4 col-md-7 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                                    <h6 class="h4 mb-2">Terraplanagem</h6>
+                                    <ul>
+                                        <li>Cadastro de esquipamentos</li>
+                                        <li>Gestão de manutenção de equipamentos</li>
+                                        <li>Agenda para controlar alocação de equipamentos</li>
+                                        <li>Ordem de serviços própria para terraplanagem</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-7 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"><i class="bi-clipboard-data fs-1 text-primary"></i></div>
+                                    <h6 class="h4 mb-2">Automecânica</h6>
+                                    <ul>
+                                        <li>Cadastro de esquipamentos</li>
+                                        <li>Pedido de balcão com recibo</li>
+                                        <li>Agenda para controlar fluxo de trabalho</li>
+                                        <li>Ordem de serviços própria para automecânica</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-7 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"><i class="bi-clipboard-check fs-1 text-primary"></i></div>
+                                    <h3 class="h4 mb-2">Despachante</h3>
+                                    <ul>
+                                        <li>Cadastro de veiculos</li>
+                                        <li>Cadastro de cliente composto(vinculado ao veiculo já cadstrado)</li>
+                                        <li>Cadastro de consecionárias</li>
+                                        <li>Simulação de taxas (como IPVA)</li>
+                                        <li>Cadastro de documento de veiculos(possível anexar fotos)</li>
+                                        <li>Agenda para controlar fluxo de trabalho</li>
+                                        <li>Ordem de serviços própria para despachantes</li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-7 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"><i class="bi-clipboard-check fs-1 text-primary"></i></div>
+                                    <h3 class="h4 mb-2">Pet Shop</h3>
+                                    <ul>
+                                        <li>Cadastro de Pets (vinculados ao cadastro dos clientes)</li>
+                                        <li>Cadastro de cliente composto</li>
+                                        <li>Agenda completa para controle do fluxo</li>
+                                        <li>Cadastro de veterinarios</li>
+                                        <li>Cadastro de vacinação</li>
+                                        <li>Cadastro de exames</li>
+                                        <li>realiação de consultas</li>
+                                        <li>cadastro de vermifungção</li>
+                                        <li>Cadastro de receitas emitidas</li>
+                                        <li>Histórico completo por pet (sobre as vacinas, consultas, receitas e
+                                            vermifungação)</li>
+                                        <li>cadastro de vermifungação</li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="text-center mt-0">O que o todos os softwares oferece?</h2>
+                    <div class="row gx-4 gx-lg-5">
+                        <div class="col-lg-4 col-md-7 text-center">
+                            <div class="mt-5">
+                                <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                                <h6 class="h4 mb-2">Operações</h6>
+                                <ul>
+                                    <li>Cadastro de clientes vinculado a histórico de vendas</li>
+                                    <li>Cadastro de produtos com informações fiscais e com composições</li>
+                                    <li>Cadastro de funcionairo vinculado a comissões</li>
+                                    <li>Cadastro de fornecedores por CNPJ</li>
+                                    <li>Entrada de estoque por xml de nota de compra</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-7 text-center">
+                            <div class="mt-5">
+                                <div class="mb-2"><i class="bi-clipboard-data fs-1 text-primary"></i></div>
+                                <h6 class="h4 mb-2">Vendas</h6>
+                                <ul>
+                                    <li>Emissão de NF-e (Nota Fiscal eletrônica)</li>
+                                    <li>Emissão de NFC-e (Cupom fiscal do consumidor)</li>
+                                    <li>Emissão de MDF-e ( Manifesto Eletrônico de Documentos Fiscais)</li>
+                                    <li>Pedidos de vendas/orçamentos</li>
+                                    <li>Relatórios e cupons não fiscais para pedidos de venda</li>
+                                    <li>Financeiro para gerar duplicatas e carnês</li>
+                                    <li>Emissão de boleto bancário registrado</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-7 text-center">
+                            <div class="mt-5">
+                                <div class="mb-2"><i class="bi-clipboard-check fs-1 text-primary"></i></div>
+                                <h3 class="h4 mb-2">Controle financeiro</h3>
+                                <ul>
+                                    <li>Controle do fluxo de caixa (entradas, saídas e sangria)</li>
+                                    <li>Cadastro de duplicatas a receber(opção quando não se gera no pedido nem na
+                                        NF-e)</li>
+                                    <li>Extrato de dplicatas a receber, com fitros por cliente e status da dupicata
+                                    </li>
+                                    <li>cadastro de dupicatas a pagar</li>
+                                    <li>Extrato de dplicatas a pagar</li>
+                                    <li>Relações de constas a pagar e a receber</li>
+                                    <li>Cadastro de contas bancarias</li>
+                                    <li>Sintegra (somente em MG)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </section>
     <!-- Contact-->
@@ -357,10 +561,10 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h2 class="mt-0">Let's Get In Touch!</h2>
+                    <h2 class="mt-0">Entre em contato com a gente e saiba muito mais!</h2>
                     <hr class="divider" />
-                    <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will
-                        get back to you as soon as possible!</p>
+                    <p class="text-muted mb-5">mande esse e email e entraremos em contato para tirar suas duvidas!<br>
+                        Ou mande mensagem para a gente no whatsApp, para maior conforto.</p>
                 </div>
             </div>
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
@@ -426,9 +630,33 @@
                 </div>
             </div>
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                    <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                    <div>+1 (555) 123-4567</div>
+                <div>
+                    <div class="redes-sociais row">
+                        <div class="col-sm-3">
+
+                        </div>
+                        <div class="infos col-sm-4">
+                            <h5>Suporte</h5>
+                            <ul>
+                                <li><a><i class="telefones fas fa-tty"> +55 (31) 9 7184-1331</i> </a></li>
+                                <li><a><i class="telefones fas fa-tty"> +55 (31) 3891-9414</i> </a></li>
+                                <li><a><i class="email fas fa-envelope"> suporte@winfit.com.br</i></a></li>
+                            </ul>
+                        </div>
+                        <div class="infos col-sm-4">
+                            <h5>Redes sociais</h5>
+                            <ul>
+                                <li><a href="https://www.facebook.com/grupobmssoftwares/"><i
+                                            class="facebook fab fa-facebook-square"> Facebook</i> </a></li>
+                                <li><a href="https://www.instagram.com/bmssoftwaress/"><i
+                                            class="instagram fab fa-instagram"> Instagram</i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCwKXwzWC--dyach74rVwa5A"><i
+                                            class="youtube fab fa-youtube"> YouTube</i> </a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=55553171841331"><i
+                                            class="whats-app fab fa-whatsapp"> WhatsApp</i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -439,6 +667,10 @@
             <div class="small text-center text-muted">Copyright &copy; 2021 - Company Name</div>
         </div>
     </footer>
+    <Div>
+        <a id="whats" href="https://api.whatsapp.com/send?phone=553171841331"><i
+                class="whats-fixed fab fa-whatsapp"></i></a>
+    </Div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <script src="js/scripts.js"></script>

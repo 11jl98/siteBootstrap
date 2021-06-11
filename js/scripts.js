@@ -17,13 +17,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     document.addEventListener('scroll', navbarShrink);
 
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
+    
 
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(

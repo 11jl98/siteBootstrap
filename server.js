@@ -36,4 +36,5 @@ server.post('/send/mail', async (req, res) => {
 
 })
 
+
 server.listen(3000, () => console.log('http://localhost:3000'))
